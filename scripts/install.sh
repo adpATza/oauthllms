@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # claude-codex installation script
-# Usage: curl -fsSL https://raw.githubusercontent.com/fcakyon/claude-code-with-codex/main/scripts/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/adpATza/oauthllms/main/scripts/install.sh | bash
 #
 # Environment variables:
 #   CLAUDE_CODEX_VERSION      - Pin a specific version (e.g., v0.1.0)
@@ -15,7 +15,7 @@
 set -e
 
 BIN_NAME="claude-codex"
-REPO="fcakyon/claude-code-with-codex"
+REPO="adpATza/oauthllms"
 
 RED='\033[0;31m'
 GREEN='\033[0;32m'

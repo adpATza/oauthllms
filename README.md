@@ -1,7 +1,7 @@
-# claude-code-with-codex
+# oauthllms
 
 [![crates.io](https://img.shields.io/crates/v/claude-codex.svg)](https://crates.io/crates/claude-codex)
-[![CI](https://github.com/fcakyon/claude-code-with-codex/actions/workflows/ci.yml/badge.svg)](https://github.com/fcakyon/claude-code-with-codex/actions/workflows/ci.yml)
+[![CI](https://github.com/adpATza/oauthllms/actions/workflows/ci.yml/badge.svg)](https://github.com/adpATza/oauthllms/actions/workflows/ci.yml)
 
 Use Claude Code with your **Claude subscription and your ChatGPT (Codex)
 subscription at the same time**, and switch between them mid-conversation.
@@ -37,7 +37,7 @@ your ChatGPT plan, in the same session, and flip between them whenever you want.
 Prebuilt binary, no Rust needed (macOS and Linux):
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/fcakyon/claude-code-with-codex/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/adpATza/oauthllms/main/scripts/install.sh | bash
 ```
 
 Or install from crates.io if you have Rust:

@@ -58,8 +58,9 @@ changes made on top of it.
 
 The crate, the installed command, and the library target are all `claude-codex`
 (`claude_codex` for the library, derived automatically from the package name).
-The crates.io package is `claude-codex`. The GitHub repository stays
-`claude-code-with-codex`.
+The crates.io package is `claude-codex`. The GitHub repository is
+`adpATza/oauthllms`. It was forked from `fcakyon/claude-code-with-codex` but is
+a clean break: nothing merges back there, so never open PRs or syncs against it.
 
 Some strings deliberately keep the old `claude-code-proxy` name because they are
 compatibility contracts, not the user-facing name. Do not rename them in a
